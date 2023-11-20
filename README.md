@@ -28,38 +28,27 @@
 
 ## ♟ 역할 및 담당 업무 
 
-- 팀장 : 기술 표준 선택, 개발 일정 관리, 작업 메뉴얼 작성 및 배포
-- Git 관리자 : Git branch 전략 수립, PR 진행 관리
-- CI/CD 관리자 : 젠킨스 CI/CD 구성
-- Cloud 관리자 : VPC구성, Subnet구성, Cloud DB 설정, 도커 이미지 관리
-- 세부 담당 기능 : JWT 인증 인가, 회원정보 관리, SMS 인증
+- 프로젝트 매니저 : 프로젝트 기획, 프로젝트 서비스 구성, 프로젝트 스토리보드
+- UX/UI 디자인 : 프로젝트 목업, Figma를 이용한 퍼블리싱 가이드제작, 메인페이지,경매페이지,관리자페이지,결제페이지
+- 웹퍼블리싱 : 입장페이지, 로그인/회원가입페이지, 회원정보 관리페이지, 각 페이지별 CSS, 각 페이지별 애니메이션 및 인터렉션
+- 서버 구현 및 운영 : 최초 CI/CD 파이프라인 설계
+- Cloud Native Operator : 프로젝트 VPC 구성 및 세팅, Docker 환경 구성, Jenkins 배포 세팅
 
 * * *
 ## ⚙ 세부 담당 기능 
 
-![로그인이미지](https://github.com/bit701team1/teamSOS/assets/124352219/2582ca86-bb00-42b7-a0a7-39200ef4c3c1)
+1. PM
+![스토리보드](https://github.com/Electronic-Gangster/goodseul/assets/124333495/38d18d3b-0ab6-4df3-b337-3805326ba196)
+<br/><br/>
 
+2. 퍼블리싱
+<img width="1005" alt="스크린샷 2023-11-20 오후 5 39 50" src="https://github.com/Electronic-Gangster/goodseul/assets/124333495/ec1ffe6f-9a9e-4cd8-93ff-f5e793c5f490">
+<br/><br/>
 
-1.  로그인 / 회원가입
-    - 가입시 이메일 중복 확인
-    - DB에 암호화된 비밀번호 저장
-    - 로그인시 JWT 활용한 인증, 인가
-      
-2. SMS 인증
-    - 가입시 문자 발송, 인증번호 일치여부 확인
-    - 비밀번호 찾기 또한 동일하게 진행
+3. CI/CD
+<img width="1145" alt="스크린샷 2023-11-20 오후 5 37 50" src="https://github.com/Electronic-Gangster/goodseul/assets/124333495/640095cd-2a35-4c7a-826d-079778b5175f">
+<br/><br/>
 
-
-
-![11111](https://github.com/bit701team1/teamSOS/assets/124352219/d6cba92e-c6d8-4273-bc53-d22379321ecc)
-
-3. Naver 계정 연동 로그인
-
-* * *
-
-## ♾ DevOps
-
-![devops](https://github.com/bit701team1/teamSOS/assets/124352219/dbc4a77d-79f3-47da-8898-4856d85b279d)
 
 
 
